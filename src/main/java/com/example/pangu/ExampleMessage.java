@@ -14,13 +14,13 @@ public interface ExampleMessage {
         PanguExample.getLogger().info("PANGU EXAMPLE IS LOADING!");
     }
 
-@BindKeyPress(value = Keyboard.KEY_O, devOnly = true)
-static void keyDown() {
-    say(null, "I'm Chen");
-}
+    @BindKeyPress(value = Keyboard.KEY_O, devOnly = true)
+    static void keyDown() {
+        say(null, "I'm Chen");
+    }
 
-@Bridge
-static void say(EntityPlayer player, String message) {
-    PanguExample.getLogger().info("Message From " + player.getName() + ": " + message);
-}
+    @Bridge
+    static void say(EntityPlayer player, String message) {
+        PanguExample.getLogger().info("Message From " + player.getName() + ": " + message);
+    }
 }
