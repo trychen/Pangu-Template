@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "pangu-example",
+    "name": "Pangu Example",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Trychen"],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["pangu"]
+  }
+]
