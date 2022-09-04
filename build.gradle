@@ -37,13 +37,12 @@ processResources {
 
 
 // Add Pangu dependency
-// frome jitpack
 repositories {
-    maven { url 'https://www.jitpack.io' }
+    maven { url 'https://repo.trychen.com' }
 }
 
 dependencies {
-    implementation "com.github.MinecraftPangu:Pangu:${pangu_version}:dev"
+    implementation "cn.mccraft.pangu:Pangu:3.9.10:dev"
 }
 
 
